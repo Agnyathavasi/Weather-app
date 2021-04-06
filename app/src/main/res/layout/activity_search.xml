@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/circle"
+    tools:context=".Search">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:id="@+id/searchcity"
+        android:layout_marginTop="25dp"
+        android:textSize="18sp"
+        android:textColorHint="#575656"
+        android:textColor="#fff"
+        android:fontFamily="@font/notosanshk_bold"
+        android:hint="Enter the City Name"
+        android:padding="10dp"
+        android:background="@drawable/ed_design"
+        android:layout_marginEnd="15dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get weather"
+        android:padding="17dp"
+        android:textColor="#fff"
+        android:id="@+id/btngetweather"
+        android:fontFamily="@font/montserrat_bold"
+        android:background="@drawable/ed_design"
+        android:layout_marginTop="45pt"/>
+
+</LinearLayout>
